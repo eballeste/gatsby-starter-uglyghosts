@@ -4,4 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-// You can delete this file if you're not using it
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [`${__dirname}/src/`, 'node_modules'], // absolute imports
+    },
+  })
+}

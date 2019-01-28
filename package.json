@@ -31,7 +31,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gatsby-plugin-resolve-src": "^2.0.0-beta.1",
     "include-media": "^1.4.9",
     "prettier": "^1.16.1"
   },
